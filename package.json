@@ -1,18 +1,26 @@
 {
-  "name": "tenki-bot",
+  "name": "line-bot-weather",
   "version": "1.0.0",
-  "description": "",
+  "description": "天気予報Bot",
   "main": "index.js",
   "scripts": {
     "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogyogy/line-bot-weather.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ogyogy/line-bot-weather/issues"
+  },
+  "homepage": "https://github.com/ogyogy/line-bot-weather#readme",
   "dependencies": {
-    "@line/bot-sdk": "^6.4.0",
-    "express": "^4.16.4",
+    "@line/bot-sdk": "^6.7.1",
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
     "request": "^2.88.0"
   }
 }
