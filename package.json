@@ -20,7 +20,7 @@
   "dependencies": {
     "@line/bot-sdk": "^7.5.0",
     "axios": "^0.21.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "request": "^2.88.0"
   }
 }
